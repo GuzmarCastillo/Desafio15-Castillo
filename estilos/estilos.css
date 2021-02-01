@@ -1,0 +1,61 @@
+.titulo {
+  color: #db6400;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 400; }
+
+.parrafos {
+  color: #16697a;
+  font-family: 'Nunito', sans-serif;
+  font-size: small;
+  text-align: justify;
+  margin: 0;
+  margin-top: 15px; }
+
+.imagenes {
+  display: block;
+  width: 350px;
+  margin: auto; }
+
+.imagenes:hover {
+  transform: translate(20px); }
+
+#pilares {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+  align-content: center; }
+  #pilares .pilares__descripcion {
+    border: 1px solid #16697a;
+    padding: 5px; }
+
+.talleres {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 5px 10px;
+  justify-content: space-around; }
+  .talleres > .talleres__articulo {
+    width: 350px; }
+
+.contacto {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 10px 10px;
+  justify-content: space-between; }
+  .contacto * {
+    margin: 5px 5px; }
+
+.bitacora {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+  .bitacora .bitacora__articulo {
+    width: 480px; }
+  .bitacora aside {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column; }
+    .bitacora aside h3 {
+      text-align: left; }
