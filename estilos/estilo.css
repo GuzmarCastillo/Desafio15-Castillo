@@ -12,9 +12,10 @@ body{
     transition: 2s; 
     margin:auto;
     margin-top: 50px;
-    margin-bottom: 50px;    
+    margin-bottom: 50px;  
+    width: 80%;  
 }
-
+/*
 #img-principal:hover{
   transition: 2s;
   transform: scale(1.2);
@@ -22,7 +23,7 @@ body{
   margin-top: 50px;
   margin-bottom: 50px;    
 }
-
+*/
 
 .menu a:hover{    
     color: #db6400;    
@@ -119,8 +120,5 @@ section{
   }
 
  
-
-
- 
-
+  
 
