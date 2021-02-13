@@ -46,6 +46,9 @@
   .contacto * {
     margin: 5px 5px; }
 
+.info-box {
+  width: 350px; }
+
 .bitacora {
   display: flex;
   flex-direction: row;

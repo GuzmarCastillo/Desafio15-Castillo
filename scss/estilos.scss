@@ -67,6 +67,10 @@ $color-secundario: #db6400;
     } 
   }
 
+  .info-box{    
+    width: $talleres-articulos;   
+  } 
+
   .bitacora{
     display: flex;
     flex-direction: row;

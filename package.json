@@ -1,7 +1,6 @@
 {
   "name": "desafio11",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "dependencies": {
     "ansi-align": "^3.0.0",
@@ -169,5 +168,14 @@
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GuzmarCastillo/Desafio15-Castillo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/GuzmarCastillo/Desafio15-Castillo/issues"
+  },
+  "homepage": "https://github.com/GuzmarCastillo/Desafio15-Castillo#readme",
+  "description": ""
 }
