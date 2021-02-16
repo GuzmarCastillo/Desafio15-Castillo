@@ -1,5 +1,5 @@
 $talleres-articulos:350px;
-$bitacora-articulos:480px;
+$bitacora-articulos:350px;
 $color-primario: #16697a;
 $color-secundario: #db6400; 
 
@@ -68,7 +68,8 @@ $color-secundario: #db6400;
   }
 
   .info-box{    
-    width: $talleres-articulos;   
+    width: $talleres-articulos; 
+    margin: 10px;     
   } 
 
   .bitacora{
@@ -76,18 +77,32 @@ $color-secundario: #db6400;
     flex-direction: row;
     flex-wrap: wrap;    
     justify-content:space-between;
+    
         .bitacora__articulo{
             width: $bitacora-articulos;
         }
-        aside{            
+        /*aside{            
             display: flex;
             align-items: flex-end;
             flex-direction: column;
             h3{
                 text-align: left;
             }
-        }
+        }*/
 }
+
+.carrousel-titulos{
+    background-color: #16697a;
+    margin: auto;
+}
+
+.carrousel-imagenes{
+    display:block;  
+    width: $talleres-articulos;  
+    margin:auto;     
+}
+
+
   
 
 

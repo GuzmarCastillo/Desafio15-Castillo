@@ -47,18 +47,30 @@
     margin: 5px 5px; }
 
 .info-box {
-  width: 350px; }
+  width: 350px;
+  margin: 10px; }
 
 .bitacora {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between; }
+  justify-content: space-between;
+  /*aside{            
+            display: flex;
+            align-items: flex-end;
+            flex-direction: column;
+            h3{
+                text-align: left;
+            }
+        }*/ }
   .bitacora .bitacora__articulo {
-    width: 480px; }
-  .bitacora aside {
-    display: flex;
-    align-items: flex-end;
-    flex-direction: column; }
-    .bitacora aside h3 {
-      text-align: left; }
+    width: 350px; }
+
+.carrousel-titulos {
+  background-color: #16697a;
+  margin: auto; }
+
+.carrousel-imagenes {
+  display: block;
+  width: 350px;
+  margin: auto; }
