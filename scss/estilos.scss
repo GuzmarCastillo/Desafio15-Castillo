@@ -3,6 +3,35 @@ $bitacora-articulos:350px;
 $color-primario: #16697a;
 $color-secundario: #db6400; 
 
+.titulo-principal{
+    color:  $color-secundario;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 500;
+    font-size: 4rem;    
+    text-align: center;
+
+}
+
+@media (max-width: 768px) {
+    .titulo-principal{
+      color:  $color-secundario;
+      font-family: 'Noto Sans', sans-serif;
+      font-weight: 500;
+      font-size: 3rem;    
+      text-align: center;
+    }
+}
+
+@media (max-width: 576px) {
+    .titulo-principal{
+      color:  $color-secundario;
+      font-family: 'Noto Sans', sans-serif;
+      font-weight: 500;
+      font-size: 2rem;    
+      text-align: center;
+    }
+}
+
 
 .titulo{
     color:  $color-secundario;
@@ -14,7 +43,7 @@ $color-secundario: #db6400;
 .parrafos{    
     color: $color-primario;
     font-family: 'Nunito', sans-serif;
-    font-size: small;
+    font-size: medium;
     text-align:justify;
     margin: 0;
     margin-top: 15px;
@@ -76,7 +105,7 @@ $color-secundario: #db6400;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;    
-    justify-content:space-between;
+    justify-content:space-around;
     
         .bitacora__articulo{
             width: $bitacora-articulos;

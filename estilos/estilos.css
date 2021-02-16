@@ -1,3 +1,26 @@
+.titulo-principal {
+  color: #db6400;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 500;
+  font-size: 4rem;
+  text-align: center; }
+
+@media (max-width: 768px) {
+  .titulo-principal {
+    color: #db6400;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 500;
+    font-size: 3rem;
+    text-align: center; } }
+
+@media (max-width: 576px) {
+  .titulo-principal {
+    color: #db6400;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 500;
+    font-size: 2rem;
+    text-align: center; } }
+
 .titulo {
   color: #db6400;
   font-family: 'Noto Sans', sans-serif;
@@ -6,7 +29,7 @@
 .parrafos {
   color: #16697a;
   font-family: 'Nunito', sans-serif;
-  font-size: small;
+  font-size: medium;
   text-align: justify;
   margin: 0;
   margin-top: 15px; }
@@ -54,7 +77,7 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   /*aside{            
             display: flex;
             align-items: flex-end;
